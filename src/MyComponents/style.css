@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.heading {
+  color: white;
+  margin-left: 20px;
+}
+.form-style {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  width: 500px;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+.form-style h3 {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.space1 label,
+.space2 label {
+  color: white;
+}
+.space1 input,
+.space2 input {
+  width: 100%;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+  background: transparent;
+}
+.list {
+  margin: 390px 60px;
+}
+.showStyle{
+  color: rgb(8, 8, 8);
+  width: 850px;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+.showStyle h4, p, button{
+  margin:8px ;
+}
+ .hr{
+  width:85%;
+}
